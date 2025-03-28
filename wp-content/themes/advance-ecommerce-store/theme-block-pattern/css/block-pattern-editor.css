@@ -1,0 +1,157 @@
+.banner-section img,
+.new-arrivals-section img {
+    width: 100% !important;
+}
+.banner-section-content h1,
+.new-arrivals-section .wc-block-grid__product-title,
+.best-section .wc-block-grid__product-title{
+    font-family: 'Montserrat', sans-serif;
+}
+.banner-section-content p,.banner-section-btn a,.product-box p,
+.new-arrivals-section h2,.category-section p {
+    font-family: 'Karla', sans-serif;
+}
+.banner-section-content h1 {
+    font-weight: 700;
+}
+.banner-category-section.wp-block-columns {
+    gap: 1.5em !important;
+}
+.category-section li {
+    list-style: none;
+    border-bottom: solid 1px #e1e1e1;
+    padding: 10px;
+}
+.category-section li a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+.category-section .category::before {
+    content: "\f0c9";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding: 11px;
+    color:#fff;
+    font-size: 17px;
+}
+.product-box .product-head ,.new-arrivals-section h2,
+.category-section .category,.best-section .best-seller  {
+    font-weight: 600;
+}
+.banner-section-content h1:before {
+    display: block;
+    height: 3px;
+    width: 17%;
+    position: absolute;
+    content: '';
+    background: #cb4f00;
+    left: 0%;
+    top: 100%;
+    bottom: 0;
+    opacity: 0.3;
+    clear: both;
+}
+.banner-section-btn .wp-block-button__link:hover,
+.new-arrivals-section a.wp-block-button__link:hover,
+.best-section .wp-block-button a:hover{
+    background: #000 !important;
+}
+.banner-section-btn .wp-block-button__link,
+.new-arrivals-section a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
+    padding: 8px 16px;
+    text-decoration: none !important;
+    background-color: #cb4f00 !important;
+    color: #fff !important;
+    border: none !important;
+    font-weight: 600;
+    border-radius: 0px;
+}
+.best-section .best-section a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
+    background: #00000000;
+    text-decoration: none !important;
+    color: #5B5B5B;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.best-section a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:before {
+    content: "\f217";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #5B5B5B;
+    margin-right: 5px;
+}
+.product-category {
+    border: solid 1px #e1e1e1;
+    background: #fff;
+    overflow-y: scroll;
+    height: 500px;
+}
+.product-section .best-section {
+    background:#e1e1e1;
+}
+.category-section .wp-block {
+    margin-top: 0px !important;
+}
+.category-section .category,.best-section .best-seller {
+    padding: 10px !important;
+}
+.category-section ul {
+    margin-left: 0px !important;
+    padding: 0px !important;
+    padding-left: 0px !important;
+    margin: 0px !important;
+}
+.banner-service-section .wp-block {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.product-service-section.wp-block-columns {
+    gap:0.1em !important;
+}
+.new-arrivals-section .wc-block-grid__product-title,
+.best-section .wc-block-grid__product-title  {
+    font-size: 20px;
+    color: #000;
+}
+.new-arrivals-section li a,.best-section li a {
+    text-decoration: none !important;
+}
+.best-section .wc-block-grid__product-image {
+    width: 25%;
+    float: left;
+}
+.best-section h3 {
+    margin: 0px;
+}
+.best-section li.wc-block-grid__product {
+    text-align: left;
+}
+.best-section li.wc-block-grid__product {
+    padding: 5px !important;
+}
+.new-arrivals-section .wc-block-grid__product-image img {
+    position: relative;
+}
+.new-arrivals-section .wc-block-grid__product-onsale,
+.best-section .wc-block-grid__product-onsale {
+    background: #cb4f00 !important;
+    padding: 10px 5px;
+    color: #fff !important;
+    font-size: 14px;
+    border-radius: 0px;
+    border-color: #cb4f00 !important; 
+}
+.new-arrivals-section .wc-block-grid__product-onsale {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.product-section .best-section .wp-block,
+.new-arrivals-section .wp-block {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.product-section .best-section .wp-block {
+    padding-top: 8px !important;
+}

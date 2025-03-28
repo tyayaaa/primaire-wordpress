@@ -1,0 +1,7 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_shoppable-fashion">
+            <key name="followers_tagline" />
+        </key>
+    </admin-texts>
+</wpml-config>

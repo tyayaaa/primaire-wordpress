@@ -1,0 +1,152 @@
+.banner-section {
+    width: auto;
+    height: auto;
+}
+.banner-section img, .new-arrivals-section img {
+    width: 100% !important;
+}
+.banner-section-content h1 {
+    font-weight: 700;
+}
+.banner-category-section.wp-block-columns {
+    gap: 1.5em !important;
+}
+.banner-section-content h1:after {
+    display: block;
+    height: 3px;
+    width: 10%;
+    position: absolute;
+    content: '';
+    background: #cb4f00;
+    left: 0%;
+    top: 100%;
+    bottom: 0;
+    opacity: 0.3;
+    clear: both;
+}
+.banner-section-btn a,.new-arrivals-section a.wp-block-button__link {
+    padding: 8px 16px !important;
+    text-decoration: none !important;
+    background-color: #cb4f00 !important;
+    color: #fff !important;
+    border: none !important;
+    font-weight: 600;
+    font-size: 12px !important;
+}
+.best-section .wp-block-button a {
+    background: #00000000;
+    text-decoration: none !important;
+    color: #5B5B5B;
+    font-size: 14px;
+    border: none !important;
+}
+.banner-category-section ul {
+    margin: 0px !important;
+}
+.banner-section-btn a.wp-block-button__link:hover,
+.new-arrivals-section .wp-block-button a:hover,
+.best-section .wp-block-button a:hover {
+    background: #000 !important;
+}
+.category-section .category::before {
+    content: "\f0c9";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding: 11px;
+    color:#fff;
+    font-size: 17px;
+}
+.category-section .category,.best-section .best-seller {
+    padding: 10px !important;
+}
+.product-category {
+    border: solid 1px #e1e1e1;
+    background: #fff;
+    overflow-y: scroll;
+    height: 421px;
+}
+.product-category li {
+    padding: 15px;
+}
+.product-category li a {
+    text-decoration: none !important;
+    color: #000;
+    font-size: 15px;
+}
+.product-box .product-head ,.new-arrivals-section h2,
+.category-section .category,.best-section .best-seller  {
+    font-weight: 600;
+}
+.product-service-section.wp-block-columns {
+    gap:0.1em !important;
+}
+.new-arrivals-section li a,.best-section li a {
+    text-decoration: none !important;
+}
+.new-arrivals-section .wc-block-grid__product-title,
+.best-section .wc-block-grid__product-title  {
+    font-size: 20px;
+}
+.best-section .wc-block-grid__product-image {
+    width: 25%;
+    float: left;
+}
+.product-section .best-section {
+    background:#e1e1e1;
+}
+.best-section li.wc-block-grid__product:first-child {
+    margin-top: 16px;
+}
+.new-arrivals-section .wc-block-grid__product-onsale,
+.best-section .wc-block-grid__product-onsale {
+    background: #cb4f00 !important;
+    padding: 10px 5px;
+    color: #fff !important;
+    font-size: 14px;
+    border-radius: 0px;
+    border-color: #cb4f00 !important;
+}
+.new-arrivals-section .wc-block-grid__product-onsale {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.new-arrivals-section .wc-block-grid__product-image img {
+    position: relative;
+}
+.best-section li.wc-block-grid__product {
+    text-align: left;
+}
+.best-section ul.wc-block-grid__products {
+    margin: 5px 5px 5px 5px;
+}
+.best-section a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:before {
+    content: "\f217";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #5B5B5B;
+    margin-right: 5px;
+}
+.best-section a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover:before {
+    color: #fff !important;
+}
+@media screen and (max-width: 767px){
+    .new-arrivals-section h2{
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .banner-category-section.wp-block-columns,
+    .product-service-section.wp-block-columns,
+    .product-section.wp-block-columns  {
+        flex-wrap: nowrap !important;
+    }   
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.category-section,
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.best-section {
+        flex-basis: 45% !important;
+    }
+    .new-arrivals-section .wc-block-grid__product-title,
+    .best-section .wc-block-grid__product-title {
+        font-size: 15px !important;
+    }
+}
